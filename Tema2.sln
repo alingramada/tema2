@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7strings", "..\7strings\7strings.csproj", "{03DDE7F7-3D12-489A-A7F5-BCDA438F18E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "varsta", "varsta\varsta.csproj", "{1995D538-CB01-422A-A179-038AA7CA46ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03DDE7F7-3D12-489A-A7F5-BCDA438F18E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DDE7F7-3D12-489A-A7F5-BCDA438F18E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DDE7F7-3D12-489A-A7F5-BCDA438F18E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DDE7F7-3D12-489A-A7F5-BCDA438F18E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1995D538-CB01-422A-A179-038AA7CA46ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1995D538-CB01-422A-A179-038AA7CA46ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1995D538-CB01-422A-A179-038AA7CA46ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1995D538-CB01-422A-A179-038AA7CA46ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {538AF3F0-853D-4D41-952E-4A55451D0254}
+	EndGlobalSection
+EndGlobal
