@@ -4,45 +4,50 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tema2
-{ 
+namespace _7strings
+{
     class Program
     {
+        
+         
         static void Main(string[] args)
-        {
-            int day;
-            int year;
-            int month;
-            string gender;
-            int age;
-            int date;
+        { //metoda concat
+            string nonculoare1 = "alb";
+          string nonculoare2 = "negru"; 
+           string nonculoare = string.Concat( nonculoare1,nonculoare2);
+            Console.WriteLine(nonculoare);
+
+            //metoda "trim"
+            string cut = "  I have a string";
+            Console.WriteLine(cut.Trim());
+
+            //metoda replace
+            string rrr = "1";
+            string inlocuire =rrr.Replace("1", "2");
+            Console.WriteLine(inlocuire);
+
+            //metoda "ToUpper"
+            string lower = "abcd";
+            string up=lower.ToUpper();
+            Console.WriteLine(up);
+
+
+           
             
-            DateTime dateTime= DateTime.UtcNow.Date;
+            //metoda "lastindexof"
+            string last = "aaa bbb ccce";
+            Console.WriteLine(last.LastIndexOf("e"));
 
-            Console.WriteLine("Type your birth year!");
-            string y= Console.ReadLine();
-            year = Convert.ToInt16(y);
-            Console.WriteLine("Type  the month of your birth!");
-            string m= Console.ReadLine();
-            month = Convert.ToInt16(m);
-            Console.WriteLine("Type your birth day!");
-            string d = Console.ReadLine();
-            day = Convert.ToInt16(d);
-            Console.WriteLine("Type your gender (M or F)!");
-            Convert date= dateTime(year, month, day);
-            string today= DateTime.Now.ToString("d/MM/yyyy");
-            int age = today - date;
-            if (age>= 65 && gender==m || age>=63 && gender==f)
-            {
-                Console.WriteLine("Retired");
-            }
-            else if (age<65 && gender == m || age<63 && gender == f)
-            {   
-                Console.WriteLine("more years to retire");
-            }
+            //metoda "startswith"
+            string incepe = "cabcaa";
+            Console.WriteLine(incepe.StartsWith("c"));
 
+            //metoda "substring"
+            string under = "Ihave a string";
+            int val = 4;
+            string Substring = under.Substring(val);
+            Console.WriteLine(val);
 
-          
         }
     }
 }
